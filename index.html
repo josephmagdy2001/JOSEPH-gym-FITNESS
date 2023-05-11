@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Fitness Website Design Tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+    <script src="js.js"></script>
+     <!-- this lib fo j query just link-->
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  
+      <script  > //<!-- this codes jquery  here  >
+  
+$(document).ready(function(){
+    alert("we hope you a nice day ,jq ");
+ 
+ });
+ $(document).ready(function(){
+    $( ".btn1" ).click(function(){
+     $(".image1").hide(2000) //<!-- this code  jquery  explain time the hide 2 sec  >
+    })
+    $( ".btn1" ).dblclick(function(){
+        $(".image1").show(2000)
+    })
+ });
+ 
+     </script>
+     <script>
+        $(document).ready(function(){
+            $( ".btn1" ).click(function(){
+             $(".logo").fadeOut(4000) //<!-- this code  jquery  explain time the hide 2 sec  >
+            })
+            $( ".btn1" ).dblclick(function(){
+                $(".logo").fadeIn(4000)
+            })
+         });
+     </script>
+      <script>
+        $(document).ready(function(){
+            $(".btn1").click(function(){
+             $(".navbar").slideUp(4000)
+             $(".btn1").dblclick(function() { 
+                $(".navbar").slideToggle(5000)       
+
+                })
+             })
+        });
+        //<!-->this code about us do hide image and content then when i leave mouse do show them
+      $(document).ready(function(){
+        $(".btn").mouseenter(function(){
+            $(".image").hide(3000)
+            $(".content").fadeToggle(3000)
+            $(".btn").mouseleave(function(){
+                $(".image").show(3000)
+                $(".content").show(3000)
+                })  
+        })
+      });
+    
+      </script>
+                      
+      
+</head>
+<body>
+    
+    
+    
+<!-- header section starts  -->
+
+<header>
+     
+<a href="#" class="logo"><span>BE</span>FIT</a>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<nav class="navbar">
+    <ul>
+        <li><a class="active" href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#service">service</a></li>
+        <li><a href="#trainer">trainer</a></li>
+        <li><a href="#plan">plan</a></li>
+        <li><a href="#register">register</a></li>
+    </ul>
+</nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+ 
+<section class="home" id="home">
+    
+
+ <h1 class="word1"> Be fit with us</h1>   <img src="images/GYM FITNESS.png" class="image1" alt="photo"> <br>  
+  
+ <a href="#"><button   class="btn1">get started</button>  </a>
+    <!-- Login form -->
+
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section start  -->
+
+<section class="about" id="about">
+
+<div class="row">
+
+    <div class="image">
+        <img src="images/about.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>a word about us</h3>
+         
+
+        <p> Joseph magdy </p><br>
+        <p> Mostafa yasser </p><br>
+        <p> akram hosny </p><br>
+         
+         <p>Lorem ipsum dolor sit amet consecrator adipisicing elit. Itaque, soluta laboriosam. Laborum aspernatur laboriosam deserunt cupiditate laudantium illum commodi. Vero.</p>
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+
+</div>
+
+</section>
+ 
+<hr color="white">
+<!-- about section ends -->
+
+<!-- service section starts  -->
+ 
+<section class="service" id="service">
+
+<h1 class="heading">our services</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/img1.jpg" alt="">
+        <div class="info">
+            <h3>treadmill</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus a distinctio excepturi libero eveniet amet id vel minima officiis doloribus.</p>
+            <a href="#"><button class="btn">more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img2.jpg" alt="">
+        <div class="info">
+            <h3>yoga</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus a distinctio excepturi libero eveniet amet id vel minima officiis doloribus.</p>
+            <a href="#"><button class="btn">more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+        <div class="info">
+            <h3>trainer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus a distinctio excepturi libero eveniet amet id vel minima officiis doloribus.</p>
+            <a href="#"><button class="btn">more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img4.jpg" alt="">
+        <div class="info">
+            <h3>equipments</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus a distinctio excepturi libero eveniet amet id vel minima officiis doloribus.</p>
+            <a href="#"><button class="btn">more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img5.jpg" alt="">
+        <div class="info">
+            <h3>boxing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus a distinctio excepturi libero eveniet amet id vel minima officiis doloribus.</p>
+            <a href="#"><button class="btn">more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img  src="images/img6.jpg" alt="">
+        <div class="info">
+            <h3>weight lifting</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus a distinctio excepturi libero eveniet amet id vel minima officiis doloribus.</p>
+            <a href="#"><button id="btn4" class="btn">more</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+   
+
+<hr color="white">
+<!-- service section ends -->
+
+<!-- trainer section starts  -->
+
+<section class="trainer" id="trainer">
+    <h3> <video src="videos/JOE2.mp4.mp4" controls loop width="50%" height="10%"></video></h3>  
+<h1 class="heading">our trainers</h1>
+
+<div class="box-container">
+  
+    <div class="box">
+        <img src="images/mm1.jpeg" alt="">
+        <div class="info">
+            <h3>BIG RAMY</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/coach2.png" alt="">
+        <div class="info">
+            <h3>Rose</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/coach3.png" alt="">
+        <div class="info">
+            <h3>john deo</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+     
+    <div class="box">
+        <img src="images/coach4.png" alt="">
+        <div class="info">
+            <h3> Mark </h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+             
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<hr color="white">
+<!-- trainer section ends -->
+
+<!-- plan section starts  -->
+
+<section class="plan" id="plan">
+
+<h1 class="heading">membership plan</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <h3 class="title">basic</h3>
+        <h3 class="price">$10<span>/mo</span></h3>
+        <h3 class="month">3 months</h3>
+        <ul>
+            <li><i class="fas fa-check"></i>weight lifting</li>
+            <li><i class="fas fa-check"></i>cardio</li>
+            <li><i class="fas fa-check"></i>yoga</li>
+            <li><i class="fas fa-check"></i>training</li>
+            <li><i class="fas fa-check"></i>protein powder</li>
+        </ul>
+        <a href="#"><button class="btn">check out</button></a>
+    </div>
+
+    <div class="box">
+        <h3 class="title">standard</h3>
+        <h3 class="price">$20<span>/mo</span></h3>
+        <h3 class="month">6 months</h3>
+        <ul>
+            <li><i class="fas fa-check"></i>weight lifting</li>
+            <li><i class="fas fa-check"></i>cardio</li>
+            <li><i class="fas fa-check"></i>yoga</li>
+            <li><i class="fas fa-check"></i>training</li>
+            <li><i class="fas fa-check"></i>protein powder</li>
+        </ul>
+        <a href="#"><button class="btn">check out</button></a>
+    </div>
+
+    <div class="box">
+        <h3 class="title">premium</h3>
+        <h3 class="price">$30<span>/mo</span></h3>
+        <h3 class="month">12 months</h3>
+        <ul>
+            <li><i class="fas fa-check"></i>weight lifting</li>
+            <li><i class="fas fa-check"></i>cardio</li>
+            <li><i class="fas fa-check"></i>yoga</li>
+            <li><i class="fas fa-check"></i>training</li>
+            <li><i class="fas fa-check"></i>protein powder</li>
+        </ul>
+        <a href="#"><button class="btn">check out</button></a>
+    </div>
+
+</div>
+
+</section>
+
+<hr color="white">
+<!-- plan section ends -->
+
+<!-- register section starts  -->
+
+<section class="register" id="register">
+
+<h1 class="heading">register now</h1>
+
+<form action="">
+
+    <div class="inputBox">
+        <input type="text" placeholder="first name">
+        <input type="text" placeholder="last name">
+    </div>
+
+    <div class="inputBox">
+        <input type="email" placeholder="your email">
+        <input type="number" placeholder="your number">
+          <input type="datetime-local" name="t" id="">  
+            
+        
+         
+          
+			 
+		 
+    </div>
+
+    <textarea name="" id="" cols="30" rows="10" placeholder="enter your any notes"></textarea>
+    <input type="checkbox"  class=" check"   placeholder="are you sure" name="" id="">
+
+    <input type="submit" class="btn" value="register"> <br>
+    <input type="reset" class="btn" value="reset">
+     
+
+</form>
+
+</section>
+
+<hr>
+
+<section class="register" id="register">
+
+   
+    <hr>
+
+    <div class="inputBox" >
+
+    <div id="div1">
+        <h1> Login here    </h1>
+         
+        <form  name="loginForm" action="home.html" method="post">
+            <div class="inputbox"> 
+               
+        <label class="label2" > Username</label>   
+        &nbsp <input type="text" id="username"   required placeholder="your name" name="username"/><br> 
+        <label > Password</label>    
+        &nbsp  &nbsp <input type="password" id="password" required placeholder="your password"   name="password"/> <br> &nbsp  
+        <input   type="button" onclick="login(loginForm)" value="Login"/> 
+    </div>
+     
+       
+        
+        </form>
+
+
+    
+    </section>
+    <section class="contact" id="contact">
+
+        <h5 class="heading">Contact us on all media</h5>
+        <br>
+    
+        <div class="btn "> 
+             
+           
+       
+            <button><a href=" https://www.facebook.com" class="btn" target="_blank" title="facebook">   page Facebook </a></button>  
+        <button><a href="mailto:josephmagdy56@gmail.sa" class="btn" target="_blank" title=" gmail">   Email  </a></button>  
+        
+  
+    <button><a href="http://wa.me/+201112215391 "  class="btn" target="_blank" title="whatsapp">whatsapp</a></button>  
+          </div>
+       
+    </section>
+    
+<!-- register section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+    created by <a href="#">student Eelu hurghada</a> | all rights reserved.
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
